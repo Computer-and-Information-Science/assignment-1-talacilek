@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-const unsigned int N = 20;
+const unsigned int N = 50;
 
 unsigned int fib (unsigned int n);
 
@@ -16,7 +16,12 @@ int main () {
 	return 0;
 }
 
-unsigned int fib (unsigned int n) {
+unsigned int fib (unsigned int n) 
+{
+	static int count = 0;
+	count++;
+	cout << "count: " << count<< endl;
+
 	static unsigned int results[N] = { 0 };
 	if (!results[n])
 		results[n] = n <= 1 ? 1 : fib(n - 1) + fib(n - 2);

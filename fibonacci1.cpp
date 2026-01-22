@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-const unsigned int N = 20;
+const unsigned int N = 50;
 
 unsigned int fib (unsigned int n);
 

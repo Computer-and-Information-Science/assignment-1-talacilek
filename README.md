@@ -16,7 +16,7 @@ that input or parameter value.
 
 For each of the programs listed below, answer the following questions:
 
-- What input or parameter value impacts the number of times the recursive function will be called?
+- What input or parameter value impacts the number of times the recursive function will be called? 
 - Give three specific examples of input/parameter values and, for each, state the number of times the recursive function is called.
 - Devise a formula with respect to *n* that describes the number of times the recursive function will be called, where *n* is either the value passed or some property of the value passed (e.g. *n* might be the length of a string or the size of an array).
 

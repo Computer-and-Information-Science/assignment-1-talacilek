@@ -13,7 +13,12 @@ int main() {
 }
 
 void reverse (unsigned int n) {
+	static int count = 0;
+	count++;
+	cout << "C" << count<< endl;
+	
 	if (n) {
+	
 		cout << n % 10;
 		reverse(n / 10);
 	}

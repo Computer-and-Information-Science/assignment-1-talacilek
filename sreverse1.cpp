@@ -1,4 +1,4 @@
-// Function to reverse the characters of a string, iterative
+a// Function to reverse the characters of a string, iterative
 #include <iostream>
 #include <string>
 using namespace std;

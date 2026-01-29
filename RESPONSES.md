@@ -44,21 +44,25 @@ or
 
 3. Complex formula needed to count calls. There is exponential growth.
 
-## tower.cpp
+## tower.cpp Done
 
-- input/parameter impacting number of calls
-- 3 specific examples of input/parameter and number of calls
-- number of recursive calls when input/parameter is *n*
+1. n=2, count = 7  
+   n=3, count = 15 
+   n=4, count = 31  
 
-## fibonacci2.cpp (presented in video lesson) ?
+2. The number of disks n impacts the number of count. (calls)
+
+3. Formula to find number of recursive call is, 2^(n+1) -1 
+
+## fibonacci2.cpp (presented in video lesson) Done
 
 1.  n= 10, count = 55  
     n= 20, count = 6765    
     n= 50, count= 3996334433  
 
-2. ??
+2. The value of N impacts the number of calls. 
 
-3. The function base on n is n??
+3. The number of calls when computing F... Hard.
 
 
 

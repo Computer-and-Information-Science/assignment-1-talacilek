@@ -22,7 +22,7 @@
 3. count = (number of digits in n) + 1,
 if we need to show with n, logn10+2 n>0 
 
-## sreverse2.cpp
+## sreverse2.cpp Done
 
 1.  s= deneme, count = 6  
     s= talhacelik, count = 10    
@@ -34,11 +34,15 @@ if we need to show with n, logn10+2 n>0
 or 
  count = s.size()
 
-## permute.cpp
+## permute.cpp Done
 
-- input/parameter impacting number of calls
-- 3 specific examples of input/parameter and number of calls
-- number of recursive calls when input/parameter is *n*
+1. input: "ab" (n=2), count = 5 
+   input: "abc" (n=3), count= 16 
+   inpu: "abcd" (n=4), count= 65
+
+2. The length n of the string impacts the number of calls.
+
+3. Complex formula needed to count calls. There is exponential growth.
 
 ## tower.cpp
 

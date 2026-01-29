@@ -10,7 +10,7 @@
 
 3. The function base on n is n+1.
 
-## ireverse2.cpp ?
+## ireverse2.cpp Done
 
 
 1.  n= 12, count = 3  
@@ -19,7 +19,8 @@
 
 2. The input that effects the number of calls is digit number of n, the number you are reversing.
 
-3. ?
+3. count = (number of digits in n) + 1,
+if we need to show with n, logn10+2 n>0 
 
 ## sreverse2.cpp
 
@@ -27,9 +28,11 @@
     s= talhacelik, count = 10    
     s= fenerbahcesporkulubu, count= 20    
 
-2. ?
+2. The lenght of the string s affects the number of calls.
 
-3. ?
+3. The function based on the input is: count = n, where n is lenght of string.  
+or 
+ count = s.size()
 
 ## permute.cpp
 
@@ -56,8 +59,3 @@
 
 
 
-## tower.cpp
-
-- input/parameter impacting number of calls
-- 3 specific examples of input/parameter and number of calls
-- number of recursive calls when input/parameter is *n*
